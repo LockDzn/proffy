@@ -29,13 +29,21 @@ const styles = StyleSheet.create({
         width: '40%'
     },
 
+    pickerBlock: {
+        height: 54,
+        marginTop: 4,
+        borderRadius: 10,
+        borderWidth: 0,
+        overflow: 'hidden',
+        marginBottom: 16
+    },
+
     input: {
         height: 54,
         backgroundColor: '#fff',
         borderRadius: 8,
         justifyContent: 'center',
         paddingHorizontal: 16,
-        marginTop: 4,
         marginBottom: 16
     },
 
@@ -52,7 +60,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontFamily: 'Archivo_700Bold',
         fontSize: 16,
-    }
+    },
 
 });
 
